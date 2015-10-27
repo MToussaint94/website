@@ -1,1 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+	.fit {
+  max-width: 100%;
+  max-height: 100%;
+}
+body {
+	background-color: #7199ee;
+}
+body {
+	background-color: #ffffff;
+	border-bottom-left-radius: 
+	margin: auto;
+	width: 40%;
+	border: 2px solid #000000;
+	outline: 1200px solid #ffffff;
+	padding: 10px;
+	border-radius: 0px;
+	margin-left: 485px;
+	margin-top: 100px;
+	}
+	
+#menu {
+		font-family: "Times New Roman";
+		background: rgb(0, 0, 0);
+		background: rgb (0,0,0, .8);
+		width: 100%;
+		margin-left:auto;
+		margin-right:auto;
+		height:auto;
+		font-size: 24px;
+		display:block;
+		padding-top:5px;
+		padding-bottom: 5px;
+		margin-bottom: 20px;
+		text-align:center;
+		position:fixed;
+		left:0px;
+		right:0px;
+		top:0px;
+		z-index: 100;
+}
+
+#menu a:link,
+#menu a:visited {
+	text-decoration: none;
+	display: inline;
+	color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+#menu a:active,
+#menu a:hover {
+	transition: color 0.6s ease-in-out;
+	-moz-transition: color .6s ease-in-out;
+	-webkit-transition: color .6s ease-in-out;
+	color: #7199ee;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 25px;
+}
+
+a.active {
+	font-size: 25px;
+	transition: color 0.6s ease-in-out;
+	-moz-transition: color .6s ease-in-out;
+	-webkit-transition: color .6s ease-in-out;
+	color: #FFF;
+	text-decoration: none;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+ 
+img {
+	 top: 0px;
+	 left: 0px;
+	 width: 100%;
+	 max-height: 100%
+}
+body,td,th {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+}
+</style>
+<title>Home</title>
+</head>
+<body>
+<div id="menu">
+	<a class="active"> Home </a>
+    <a href="#"> Editorial </a>
+    <a href="#"> Journal </a>
+    <a href="Sense8.html"> Review </a>
+    
+<img class="fit" src="home.gif" style=" width:100%; height:100%"  alt="home page" usemap="#Map"  />
+<map name="Map" id="Map">
+    <area alt="About me" title="About Me"  href="" shape="poly" coords="793,442,1163,432,1164,487,791,495"/>
+    [...]
+</map>
+
+</div>
+</body>
+</html>
+
+
+
 
